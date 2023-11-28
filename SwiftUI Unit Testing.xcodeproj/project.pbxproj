@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9229F5442B15FA560029D0C6 /* View Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8A2B15BEAB0066B8BF /* View Model.swift */; };
+		9229F5452B15FA590029D0C6 /* View Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8A2B15BEAB0066B8BF /* View Model.swift */; };
+		9229F5462B15FA690029D0C6 /* Coverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8C2B15BF8E0066B8BF /* Coverters.swift */; };
+		9229F5472B15FA6A0029D0C6 /* Coverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8C2B15BF8E0066B8BF /* Coverters.swift */; };
 		928E4F612B15BE580066B8BF /* SwiftUI_Unit_TestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F602B15BE580066B8BF /* SwiftUI_Unit_TestingApp.swift */; };
 		928E4F632B15BE580066B8BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F622B15BE580066B8BF /* ContentView.swift */; };
 		928E4F652B15BE5B0066B8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928E4F642B15BE5B0066B8BF /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		928E4F722B15BE5C0066B8BF /* SwiftUI_Unit_TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F712B15BE5C0066B8BF /* SwiftUI_Unit_TestingTests.swift */; };
 		928E4F7C2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F7B2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITests.swift */; };
 		928E4F7E2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F7D2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITestsLaunchTests.swift */; };
+		928E4F8B2B15BEAC0066B8BF /* View Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8A2B15BEAB0066B8BF /* View Model.swift */; };
+		928E4F8D2B15BF8E0066B8BF /* Coverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928E4F8C2B15BF8E0066B8BF /* Coverters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,8 @@
 		928E4F772B15BE5C0066B8BF /* SwiftUI Unit TestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Unit TestingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		928E4F7B2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Unit_TestingUITests.swift; sourceTree = "<group>"; };
 		928E4F7D2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Unit_TestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		928E4F8A2B15BEAB0066B8BF /* View Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View Model.swift"; sourceTree = "<group>"; };
+		928E4F8C2B15BF8E0066B8BF /* Coverters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,8 @@
 			children = (
 				928E4F602B15BE580066B8BF /* SwiftUI_Unit_TestingApp.swift */,
 				928E4F622B15BE580066B8BF /* ContentView.swift */,
+				928E4F8A2B15BEAB0066B8BF /* View Model.swift */,
+				928E4F8C2B15BF8E0066B8BF /* Coverters.swift */,
 				928E4F642B15BE5B0066B8BF /* Assets.xcassets */,
 				928E4F662B15BE5B0066B8BF /* Preview Content */,
 			);
@@ -257,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928E4F8B2B15BEAC0066B8BF /* View Model.swift in Sources */,
 				928E4F632B15BE580066B8BF /* ContentView.swift in Sources */,
 				928E4F612B15BE580066B8BF /* SwiftUI_Unit_TestingApp.swift in Sources */,
+				928E4F8D2B15BF8E0066B8BF /* Coverters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				928E4F722B15BE5C0066B8BF /* SwiftUI_Unit_TestingTests.swift in Sources */,
+				9229F5442B15FA560029D0C6 /* View Model.swift in Sources */,
+				9229F5462B15FA690029D0C6 /* Coverters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9229F5452B15FA590029D0C6 /* View Model.swift in Sources */,
 				928E4F7C2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITests.swift in Sources */,
 				928E4F7E2B15BE5C0066B8BF /* SwiftUI_Unit_TestingUITestsLaunchTests.swift in Sources */,
+				9229F5472B15FA6A0029D0C6 /* Coverters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

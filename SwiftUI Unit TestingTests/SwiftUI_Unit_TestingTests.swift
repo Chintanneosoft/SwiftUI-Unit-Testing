@@ -32,5 +32,27 @@ final class SwiftUI_Unit_TestingTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    func testRupeesToUSDSuccess() {
+        let converter = Converters()
+        let input = "400"
+        let output = converter.convertRsToUSD(rupees: input)
+        XCTAssertEqual(output, "$4.80")
+    }
+    
+    func testRupeesToUSDNegative() {
+        let converter = Converters()
+        let input = "-2"
+        let output = converter.convertRsToUSD(rupees: input)
+        XCTAssertEqual(output, "Enter a Positive Number")
+    }
+    
+    func testRupeesToUSDBig() {
+        let converter = Converters()
+        let input = "200000000000000000000000"
+        let output = converter.convertRsToUSD(rupees: input)
+        XCTAssertEqual(output, "Number to Big to be Converted")
+    }
+    
+    
 }

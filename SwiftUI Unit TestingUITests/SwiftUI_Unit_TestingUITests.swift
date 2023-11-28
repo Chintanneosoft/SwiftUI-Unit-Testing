@@ -23,11 +23,25 @@ final class SwiftUI_Unit_TestingUITests: XCTestCase {
     }
 
     func testExample() throws {
-        // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+                
+        testConversionFlow(app:app)
+        
+    }
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testConversionFlow(app:XCUIApplication) {
+        // Tap on "Enter Currency" text field
+        let enterCurrencyTextField = app.textFields["Enter Currency"]
+        XCTAssertTrue(enterCurrencyTextField.exists, "The Enter Currency text field does not exist.")
+        enterCurrencyTextField.tap()
+        enterCurrencyTextField.typeText("30")
+        
+        // Tap on "Convert" button
+        let convertButton = app.buttons["Convert"]
+        XCTAssertTrue(convertButton.exists, "The Convert button does not exist.")
+        convertButton.tap()
+        
     }
 
     func testLaunchPerformance() throws {
@@ -36,6 +50,6 @@ final class SwiftUI_Unit_TestingUITests: XCTestCase {
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
-        }
+                    }
     }
 }
